@@ -12,6 +12,11 @@ void showHelp()
     Console.WriteLine("Нажмите 4 + Enter, для выполнения команды 4: задать параметры генерации массива случайных чисел и вывести результат");
     Console.WriteLine("Нажмите 5 + Enter, для выхода из программы");
 }
+int[] filterEvens(int[] array)
+{
+    int[] result = { };
+    int[] tmpArray = new int[10];
+    int tal = 0;
 
 
 
